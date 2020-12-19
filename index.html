@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+
+
     <!-- Css Files -->
     <link rel="stylesheet" href="./style.css" />
 
@@ -48,9 +50,223 @@
         }
 
         section.faq_section {
-            height: 350px;
-            background-color: tomato;
+            height: auto;
+            background-color: white;
         }
+
+               .faq_questions
+        {
+          font-family:"fQTrebuchet MS", Arial, Helvetica, sans-serif;
+          font-size: 16px;
+      text-align:left;
+      color:#1086e8;
+      
+    
+    }
+    
+    a.faq_questions:hover 
+    {
+      color:#75d5fd;
+      
+    }
+     .faq_subtitle
+        {
+          font-family:Georgia, "Times New Roman", Times, serif;
+          font-size: 16px;
+      
+    }
+   
+     .faq_div {
+      text-align:center;
+      display:inline-block;
+      border:5px solid #1086e8;
+      width:300px;
+      top:150px;
+      border-radius:20px;
+      left:50%;
+      margin: -50px 0 0 -150px;
+      animation: border-flicker 2s linear infinite;
+                }
+
+.faq_head_flick {
+  color:#FF00E6 ;
+  font-family: 'Raleway', sans-serif;
+  font-size:28px;
+  letter-spacing:10px;
+  animation: text-flicker 3s linear infinite;
+
+}
+
+#offset {
+  animation: letter-flicker 2s linear infinite;
+}
+
+@keyframes text-flicker {
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  
+  2% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  8% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  9% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  12% {
+    opacity:0.1;
+    text-shadow: 0px 0px rgba(242, 22, 22, 1);
+  }
+  20% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  25% {
+    opacity:0.3;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  30% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  
+  70% {
+    opacity:0.7;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  
+  72% {
+    opacity:0.2;
+    text-shadow:0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  
+  77% {
+    opacity:.9;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  100% {
+    opacity:.9;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+}
+
+@keyframes border-flicker {
+  0% {
+    opacity:0.1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+-moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  2% {
+    opacity:1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+-moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  4% {
+    opacity:0.1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+-moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  
+  8% {
+    opacity:1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+-moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  70% {
+    opacity:0.7;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+-moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  100% {
+    opacity:1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+-moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+}
+
+@keyframes letter-flicker {
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  2% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  4% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  
+  
+  19% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  21% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  23% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  
+  80% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  83% {
+    opacity:0.4;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  87% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+}
+
+      .faq_answer
+      {
+        font-family:  "Trebuchet MS", Arial, Verdana;
+         background-color: #33ccff;
+         font-weight: bold;
+        background-image: linear-gradient(45deg, #33ccff, #b7002d);
+          -webkit-background-clip: text;
+          -moz-background-clip: text;
+          -webkit-text-fill-color: transparent; 
+          -moz-text-fill-color: transparent;
+        
+      
+      }
+      
+    
+      
+      .faq_Q
+      {
+        color:#c20cb0 ;
+        font-size:24px;
+      }
+      
+      .faq_A
+    
+        font-size:18px;
+        color:#0ffbf9;
+        float:left;
+        background-color:#212529;
+      }
 
         section.sponsors_section {
             height: 350px;
@@ -91,13 +307,114 @@
         <h3>Examples (What we want, Type of Projects) Section</h3>
     </section>
 
-    <!-- FAQs Section -->
+   <!-- FAQs Section -->
     <section class="faq_section">
-        <h3>FAQ Section</h3>
-    </section>
+
+        <!-- Inbuilt Javascript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+      
+  
+       <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css" />
+
+
+ 
+  
+ 
+    
+    <table border="0" id="faq_Table" class="table table-dark">
+      
+
+
+    
+        <tr>
+          <th></th>
+    <th>
+       <div class="faq_div" id="text">
+  <span class="faq_head_flick"> F<span id="offset">A</span>Q's</span>
+</div>
+ </th>
+</tr>
+
+            
+      <tr align="left">
+        <th class="faq_Q">Q . </th>
+        <th> 
+          <a  class="faq_questions" data-toggle="collapse" href="#Faq_Question1"  role="button" aria-expanded="false" aria-controls="collapseExample "> HOW DO I ACTIVATE MY ACCOUNT? </a>
+           </th>
+      </tr>
+
+
+      <tr align="left">
+     
+      
+        <td  colspan="2"><div data-parent="#faq_Table" class="collapse" id="Faq_Question1">
+          <div class="card card-body" ><span class="faq_answer"> The instructions to activate your account will be sent to your email once you have submitted the registration form. If you did not receive this email, your email service provider’s mailing software may be blocking it. You can try checking your junk / spam folder or contact us at help@samplestore.com</span> </div> </div>
+        </td>
+      </tr>
+
+
+      <tr align="left">
+        <th class="faq_Q">Q . </th>
+        <th> <a  class="faq_questions" data-toggle="collapse" href="#Faq_Question2" role="button" aria-expanded="false" aria-controls="collapseExample"> WHY MUST I MAKE PAYMENT IMMEDIATELY AT CHECKOUT? </a> </th>
+      </tr>
+
+      <tr align="left">
+        <td  colspan="2"  ><div data-parent="#faq_Table" class="collapse" id="Faq_Question2">
+           <div class="card card-body"><span class="faq_answer">
+           Sample ordering is on ‘first-come-first-served’ basis. To ensure that you get your desired samples, it is recommended that you make your payment within 60 minutes of checking out. </span></div>
+        </td>
+      </tr>
+
+
+      <tr align="left">
+        <th class="faq_Q">Q . </th>
+        <th> <a class="faq_questions" data-toggle="collapse" href="#Faq_Question3" role="button" aria-expanded="false" aria-controls="collapseExample"> HOW CAN I TRACK MY ORDERS & PAYMENT? </a> </th>
+      </tr align="left">
+
+      <tr align="left">
+        <td colspan="2"  ><div data-parent="#faq_Table" class="collapse" id="Faq_Question3">
+          <div class="card card-body"><p class="faq_answer"> After logging into your account, the status of your checkout history can be found under Order History. For orders via registered postage, a tracking number (article tracking number) will be given to you after the receipt given from Singapore Post Limited (SingPost). </p></div>
+        </div></td>
+      </tr>
+
+
+      <tr align="left">
+        <th class="faq_Q">Q . </th>
+        <th> <a class="faq_questions" data-toggle="collapse" href="#Faq_Question4" role="button" aria-expanded="false" aria-controls=       "collapseExample"> HOW DO I CANCEL MY ORDERS BEFORE I MAKE A PAYMENT? </a> </th>
+      </tr>
+
+      <tr align="left">
+        <td colspan="2"><div  data-parent="#faq_Table" class="collapse" id="Faq_Question4">
+          <div class="card card-body" ><p class="faq_answer"> After logging into your account, go to your Shopping Cart. Here, you will be able to make payment or cancel your order. Note: We cannot give refunds once payment is verified.</p> </div>
+        </div></td>
+      </tr>
+
+
+      <tr align="left">
+        <th class="faq_Q">Q . </th>
+        <th> <a class="faq_questions" data-toggle="collapse" href="#Faq_Question5" role="button" aria-expanded="false" aria-controls="collapseExample"> WHAT IS THE ACCUMULATED DELIVERY FEE FOR? HOW MUCH IS THE HANDLING FEE? </a> </th>
+      </tr>
+
+      <tr align="left">
+        <td colspan="2" ><div  data-parent="#faq_Table" class="collapse" id="Faq_Question5">
+          <div class="card card-body" ><p class="faq_answer"> The flat-rate handling fee is S$5.99 and it is only applicable to normal samples. For free samples, they are fully paid for and there are no additional charges to deliver the free samples.</p> </div>
+        </div></td>
+      </tr>
+
+
+    </table>
+</section>
+
 
     <!-- Sponsors Section -->
-    <section class="sponsors_section">
+  <section class="sponsors_section">
         <h3>Sponsors Section</h3>
     </section>
 
@@ -107,16 +424,7 @@
     </footer>
 
 
-    <!-- Inbuilt Javascript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+  
 </body>
 
 </html>
